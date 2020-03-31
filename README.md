@@ -6,4 +6,4 @@ The user can select multiple items, selecting an item more than once groups the 
 The user can then see the aggregated collection of cart items and total price.
 
 This implements the MVC Architecture and is developed using 
-Nodejs | express. Data persistence with MongoDB | Mongoose, express-validator, connect-flash for slashing messages to the view, bcrypt to hash passwords, connect-mongo to store the user sessions in the DB, passport, passport-local Strategy for signup and sign-in authentications, CSURF to protect our session and Express-handlebars for Templating and displaying data to the View.
+Nodejs | express. Data persistence with MongoDB | Mongoose. Other packages used are express-validator, connect-flash for flashing messages to the view, bcrypt to hash passwords, connect-mongo to store the user sessions in the DB, passport, passport-local Strategy for signup and sign-in authentications, CSURF to protect our session and Express-handlebars for Templating and displaying data to the View.
