@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="">
+    <a class="navbar-brand btn btn-primary" href="/" style="color: white;">Brand</a>
+  </div>
+
+  <div class="navbar-links-container">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/shopping-cart/">
+            <i class="fas fa-shopping-cart" id="navbar-icons"></i> Shopping Cart
+            <span class="badge"><button class="btn btn-primary btn-sm">{{session.cart.totalQty}}</button></span>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user" id="navbar-icons"></i> 
+            User Management
+          </a>
+          <ul class="dropdown-menu">
+            {{#if login}}
+            <li><a href="/user/profile">User Account</a></li>
+            <li class="divider" role="separator"></li>
+            <li><a href="/user/logout">Logout</a></li>
+            {{else}}
+            <li><a href="/user/signup">Sign Up</a></li>
+            <li><a href="/user/signin">Sign In</a></li>
+            {{/if}}
+          </ul>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+    
+</nav>
