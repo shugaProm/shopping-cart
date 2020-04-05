@@ -1,7 +1,7 @@
 # shopping-cart
 Hands on for NodeJS Development
  
- Shopping-cart app where registered/signed up and non-registered users can select and add items to cart, reistered users can log in and see their cart sessions. 
+ Shopping-cart app where registered/signed up and non-registered users can select and add items to cart, registered users can log in and see their cart sessions. 
 The user can select multiple items, selecting an item more than once groups the item in a collection with the corresponding price. 
 The user can then see the aggregated collection of cart items and total price.
 
